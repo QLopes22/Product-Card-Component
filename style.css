@@ -1,10 +1,12 @@
 html {
     font-size: 100%;
     box-sizing: border-box;
-    
+
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
     box-sizing: inherit;
 }
 
@@ -18,7 +20,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-   
+
 }
 
 /* Mobile Styles */
@@ -43,7 +45,7 @@ body {
         border-bottom-right-radius: 1em;
     }
 
-    h2 {    
+    h2 {
         font-size: 12px;
         font-style: normal;
         font-weight: 500;
@@ -75,14 +77,14 @@ body {
         border-radius: 8px;
         border: none;
         width: 100%;
-        height: 48px; 
+        height: 48px;
     }
 
     button:hover {
         background-color: #1A4032;
     }
 
-    button > p {
+    button>p {
         color: white;
         font-size: 14px;
         font-weight: 700px;
@@ -95,7 +97,7 @@ body {
         align-items: center;
     }
 
-    .prices > p {
+    .prices>p {
         padding: 5px;
     }
 
@@ -118,7 +120,7 @@ body {
     .product-img {
         border-top-left-radius: 1em;
         border-bottom-left-radius: 1em;
-        content:url("images/image-product-desktop.jpg");
+        content: url("images/image-product-desktop.jpg");
     }
 
     .text {
@@ -128,7 +130,7 @@ body {
         border-bottom-right-radius: 1em;
     }
 
-    h2 {    
+    h2 {
         font-size: 12px;
         font-style: normal;
         font-weight: 500;
@@ -170,14 +172,14 @@ body {
         border-radius: 8px;
         border: none;
         width: 236px;
-        height: 48px; 
+        height: 48px;
     }
 
     button:hover {
         background-color: #1A4032;
     }
 
-    button > p {
+    button>p {
         color: white;
         font-size: 14px;
         font-weight: 700;
@@ -190,7 +192,7 @@ body {
         align-items: center;
     }
 
-    .prices > p {
+    .prices>p {
         padding: 5px;
     }
 
@@ -201,4 +203,3 @@ body {
         line-height: 23px;
     }
 }
-
