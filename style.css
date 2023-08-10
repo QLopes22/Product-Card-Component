@@ -36,6 +36,7 @@ body {
     .product-img {
         border-top-left-radius: 1em;
         border-top-right-radius: 1em;
+        content: url("images/image-product-mobile.jpg");
     }
 
     .text {
